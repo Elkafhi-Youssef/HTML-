@@ -1,6 +1,98 @@
+
 *{
     margin: auto;
     box-sizing: border-box;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 20Px;
+    padding: 10px 0;
+    
+}
+
+header {
+    font-family: monospace;
+    display:flex;
+    font-size: 18px;
+    justify-content:space-between;
+    background: #233140;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  nav {
+    float: right;
+    margin-right: 40px;
+  }
+  nav ul {
+      list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 60px;
+  }
+
+.container{
+    display: block;
+    margin:  0;
+    background-color:#18BC9C;
+    height: 250px;
+}
+.titre{
+    font-family:monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 100px;
+}
+.line1{
+    width:200px;
+    background-color: white ;
+    border:solid  white;
+    display: inline;
+    color: white;
+    margin-right:10px;
+    font-size: 5px;
+}
+.line2{
+    background-color: white ;
+    border:solid white;
+    width: 120px;;
+    display: inline;
+    color: white;
+    font-size: 5px;
+
+}
+.etoile{
+    color: white;   
+     display: inline;
+
+}
+p{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-right:10px;
+}
+.bienvenu{
+    display: inline;
+}
+.all{
+    text-align: center;
+}
+code{
+    color:#233140;
+
 }
 section{
     background-color: #233140;
@@ -48,4 +140,5 @@ section{
    width: 100%;
    margin-top: 30px;
     
+
 }
