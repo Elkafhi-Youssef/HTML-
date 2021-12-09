@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: block;
+    margin:  0;
+    background-color:#18BC9C;
+    height: 250px;
+}
+.titre{
+    font-family:monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 100px;
+}
+.line1{
+    width:200px;
+    background-color: white ;
+    border:solid  white;
+    display: inline;
+    color: white;
+    margin-right:10px;
+    font-size: 5px;
+}
+.line2{
+    background-color: white ;
+    border:solid white;
+    width: 120px;;
+    display: inline;
+    color: white;
+    font-size: 5px;
+
+}
+.etoile{
+    color: white;   
+     display: inline;
+
+}
+p{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-right:10px;
+}
+.bienvenu{
+    display: inline;
+}
+.all{
+    text-align: center;
+}
+code{
+    color:#233140;
+}
