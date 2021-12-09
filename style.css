@@ -1,4 +1,43 @@
+
+
+    margin: auto;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 20Px;
+    padding: 10px 0;
+    
+}
+
+header {
+    font-family: monospace;
+    display:flex;
+    font-size: 18px;
+    justify-content:space-between;
+    background: #233140;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  nav {
+    float: right;
+    margin-right: 40px;
+  }
+  nav ul {
+      list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 60px;
+  }
 *{
+
     margin: 0;
     box-sizing: border-box;
 }
